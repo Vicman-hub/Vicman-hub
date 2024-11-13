@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    display: flex;
+    column-gap: 50px;
+}
+
+.row-1and2{
+    background-color: black;
+}
+
+.row-1{
+    
+    background-color: black;
+    column-gap: 21.5px;
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.row-2{
+    display: flex;
+    column-gap: 35px;
+    
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+.grid-4-cols {
+    background-color: white;
+    margin-top: 5px;
+    column-gap: 15px;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 6px 10px 10px 6px rgb(3, 118, 49); */
+    /* border-radius: 100px; */
+    box-sizing: border-box;
+    width: 50%;
+    height: 120%;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    /* border-color: aqua; */
+
+}
