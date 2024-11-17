@@ -15,8 +15,6 @@
 form{
     display: flex;
     column-gap: 50px;
-    padding-bottom: 16px;
-    padding-top: 16px;
     flex-wrap: nowrap;
     margin-left: auto;
     margin-right: auto;
@@ -82,3 +80,12 @@ p{
     /* border-color: aqua; */
 
 }
+
+@media screen and ( max-width: 500px  ) {
+    .text-row{ display: flex; justify-content: center;}
+    .row-1and2{ display: grid;}
+    /* .row-2{display: grid;} */
+    img  {   width:  auto; height:auto; }
+}
+
+
